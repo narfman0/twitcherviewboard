@@ -23,6 +23,9 @@ clean-pyc: ## remove Python file artifacts
 init:
 	pip install -r .
 
+init-test: init
+	pip install pyinstaller
+
 pyinstaller: clean
 	pyinstaller --noconfirm --onefile --windowed \
 		-n twitcherviewboard app.py

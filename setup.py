@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="twitcherviewboard",
-    version="0.0.1",
+    version="0.0.2",
     description=("App to run a twitch streamer dashboard"),
     classifiers=[
         "Development Status :: 4 - Beta",
